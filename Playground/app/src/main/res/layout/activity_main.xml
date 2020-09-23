@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="andy.playground.MainActivity">
+
+    <TextView
+        android:id="@+id/tvGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/games"
+        android:textColor="@color/titleColor"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btMomoryCardGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttonColor"
+        android:onClick="chooseMemoryCardGame"
+        android:text="@string/memory_card"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btSnakeGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttonColor"
+        android:onClick="chooseSnakeGame"
+        android:text="@string/snake_game"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    tools:context="andy.playground.SnakeGame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btGameStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameStart"
+            android:layout_gravity="center"
+            android:background="@color/buttonColor"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp"
+            android:onClick="gameStart"/>
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/score"
+            android:textColor="@color/scoreColor"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btGamePause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamePause"
+            android:layout_gravity="center"
+            android:background="@color/buttonColor"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp"
+            android:onClick="gamePause"/>
+    </LinearLayout>
+
+    <andy.playground.SnakeGameView
+        android:id="@+id/snakeGameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:background="@color/directionButtonBackground"
+            android:gravity="center"
+            android:text="@string/up"
+            android:textColor="@color/directionButtonTextColor"
+            android:textSize="24sp"
+            android:onClick="goUp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@color/directionButtonBackground"
+                android:gravity="center"
+                android:text="@string/left"
+                android:textColor="@color/directionButtonTextColor"
+                android:textSize="24sp"
+                android:onClick="goLeft"/>
+
+            <Button
+                android:id="@+id/btDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@color/directionButtonBackground"
+                android:gravity="center"
+                android:text="@string/down"
+                android:textColor="@color/directionButtonTextColor"
+                android:textSize="24sp"
+                android:onClick="goDown"/>
+
+            <Button
+                android:id="@+id/btRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@color/directionButtonBackground"
+                android:gravity="center"
+                android:text="@string/right"
+                android:textColor="@color/directionButtonTextColor"
+                android:textSize="24sp"
+                android:onClick="goRight"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

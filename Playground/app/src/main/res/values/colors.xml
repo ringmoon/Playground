@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleColor">#0066FF</color>
+    <color name="buttonColor">#00DDDD</color>
+    <color name="buttonTextColor">#FF3333</color>
+    <color name="timeText">#FFFFFF</color>
+    <color name="minuteBackground">#00FF7F</color>
+    <color name="secondBackground">#F4A460</color>
+    <color name="scoreColor">#FFAA33</color>
+    <color name="directionButtonBackground">#00BBFF</color>
+    <color name="directionButtonTextColor">#FFFFFF</color>
+</resources>

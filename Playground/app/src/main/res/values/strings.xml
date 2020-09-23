@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Playground</string>
+    <string name="games">GAMES</string>
+    <string name="memory_card">Memory Card Game</string>
+    <string name="YOKAI">YO-KAI Watch</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="one_piece">One Piece</string>
+    <string name="gameStart">Game Start</string>
+    <string name="gameReset">Game Reset</string>
+    <string name="gamePause">Game Pause</string>
+    <string name="time">00</string>
+    <string name="snake_game">Snake Game</string>
+    <string name="simple">Simple</string>
+    <string name="normal">Normal</string>
+    <string name="difficult">Difficult</string>
+    <string name="score">Score</string>
+    <string name="up">▲</string>
+    <string name="down">▼</string>
+    <string name="left">◀</string>
+    <string name="right">▶</string>
+    <string name="game_message_title">Game Message</string>
+    <string name="out_of_bound">Out Of Bound !</string>
+    <string name="hit_self">Hit Self !</string>
+    <string name="confirm">OK</string>
+
+
+</resources>

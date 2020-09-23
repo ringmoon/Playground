@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">歡樂遊樂場</string>
+    <string name="games">遊戲集</string>
+    <string name="memory_card">記憶牌遊戲</string>
+    <string name="YOKAI">妖怪手錶</string>
+    <string name="pokemon">神奇寶貝</string>
+    <string name="one_piece">海賊王</string>
+    <string name="gameStart">遊戲開始</string>
+    <string name="gameReset">遊戲重置</string>
+    <string name="gamePause">遊戲暫停</string>
+    <string name="time">00</string>
+    <string name="snake_game">貪吃蛇遊戲</string>
+    <string name="simple">簡單</string>
+    <string name="normal">正常</string>
+    <string name="difficult">困難</string>
+    <string name="score">分數</string>
+    <string name="up">▲</string>
+    <string name="down">▼</string>
+    <string name="left">◀</string>
+    <string name="right">▶</string>
+    <string name="game_message_title">遊戲訊息</string>
+    <string name="out_of_bound">小呆瓜！ 你撞牆了...</string>
+    <string name="hit_self">幹嘛撞自己！？</string>
+    <string name="confirm">確定</string>
+</resources>
